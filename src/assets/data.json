@@ -99,29 +99,24 @@
                 "sdfaPoints": [
                     {
                         "week1": {
-                            "points": "",
-                            "f": "",
-                            "week1": ""
+                            "points": "1.00",
+                            "f": "1"
                         },
                         "week2": {
-                            "points": "",
-                            "f": "",
-                            "week2": ""
+                            "points": "1.00",
+                            "f": "1"
                         },
                         "week3": {
-                            "points": "",
-                            "f": "",
-                            "week3": ""
+                            "points": "1.00",
+                            "f": "1"
                         },
                         "week4": {
-                            "points": "",
-                            "f": "",
-                            "week4": ""
+                            "points": "1.00",
+                            "f": "1"
                         },
                         "week5": {
-                            "points": "",
-                            "f": "",
-                            "week5": ""
+                            "points": "1.00",
+                            "f": "1"
                         }
                     }
                 ]

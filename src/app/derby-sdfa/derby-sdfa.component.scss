@@ -43,68 +43,83 @@
                 text-overflow: ellipsis;
             }
             div:first-child {
-                background-color: red;
-                width: 134px;
+                // background-color: red;
+                width: 145px;
                 flex: none;
             }
             div:nth-child(2) {
-                background-color: #4c4c5c;
+                // background-color: #4c4c5c;
                 width: 80px;
                 flex: none;
             }
             div:nth-child(3) {
-                background-color: red;
+                // background-color: red;
                 width: 266px;
                 flex: none;
             }
             div:nth-child(4) {
-                background-color: #4c4c5c;
+                // background-color: #4c4c5c;
                 width: 280px;
                 flex: none;
             }
             div:nth-child(5) {
-                background-color: red;
+                // background-color: red;
                 width: 466px;
                 flex: none;
             }
             div:nth-child(6), div:nth-child(9), div:nth-child(12), div:nth-child(15), div:nth-child(18) {
-                background-color: #4c4c5c;
+                // background-color: #4c4c5c;
                 width: 80px;
                 flex: none;
             }
             div:nth-child(7), div:nth-child(10), div:nth-child(13), div:nth-child(16), div:nth-child(19) {
-                background-color: red;
+                // background-color: red;
                 width: 86px;
                 flex: none;
             }
             div:nth-child(8), div:nth-child(11), div:nth-child(14), div:nth-child(17), div:nth-child(20) {
-                background-color: #4c4c5c;
+                // background-color: #4c4c5c;
                 width: 80px;
                 flex: none;
             }
             div:nth-child(21) {
-                background-color: red;
+                // background-color: red;
                 width: 66px;
                 flex: none;
             }
             div:nth-child(22) {
-                background-color: #4c4c5c;
+                // background-color: #4c4c5c;
                 width: 50px;
                 flex: none;
             }
             div:nth-child(23) {
-                background-color: red;
+                // background-color: red;
                 width: 135px;
                 flex: none;
             }
             div:nth-child(24) {
-                background-color: #4c4c5c;
+                // background-color: #4c4c5c;
                 width: 150px;
                 flex: none;
             }
             div:nth-child(25) {
-                background-color: red;
-                width: 135px;
+                // background-color: pink;
+                width: 145px;
+                flex: none;
+            }
+            div:nth-child(26), div:nth-child(29), div:nth-child(32), div:nth-child(35), div:nth-child(38) {
+                // background-color: #4c4c5c;
+                width: 65px;
+                flex: none;
+            }
+            div:nth-child(27), div:nth-child(30), div:nth-child(33), div:nth-child(36), div:nth-child(39) {
+                // background-color: red;
+                width: 22px;
+                flex: none;
+            }
+            div:nth-child(28), div:nth-child(31), div:nth-child(34), div:nth-child(37), div:nth-child(40) {
+                // background-color: pink;
+                width: 70px;
                 flex: none;
             }
         }
@@ -116,9 +131,6 @@
 
             div {
                 display: flex;
-                // padding: 8px 15px;
-                // border-bottom: 1px solid #f1f1f1;
-
                 div {
                     flex: 1;
                     padding: 8px;
@@ -127,31 +139,31 @@
             }
 
             div:first-child {
-                background-color: red;
-                width: 134px;
+                // background-color: red;
+                width: 145px;
                 flex: none !important;
             }
 
             div:nth-child(2) {
-                background-color: #4c4c5c;
+                // background-color: #4c4c5c;
                 width: 80px;
                 flex: none !important;
             }
 
             div:nth-child(3) {
-                background-color: red;
+                // background-color: red;
                 width: 266px;
                 flex: none !important;
             }
 
             div:nth-child(4) {
-                background-color: #4c4c5c;
+                // background-color: #4c4c5c;
                 width: 280px;
                 flex: none !important;
             }
 
             div:nth-child(5) {
-                background-color: red;
+                // background-color: red;
                 width: 466px;
                 flex: none !important;
             }
@@ -159,50 +171,69 @@
             &_week {
                 padding: 0 !important;
                 div:first-child {
-                    background-color: #4c4c5c;
+                    // background-color: #4c4c5c;
                     width: 80px;
                     flex: none !important;
                 }
                 div:nth-child(2) {
-                    background-color: red;
+                    // background-color: red;
                     width: 86px;
                     flex: none !important;
                 }
                 div:nth-child(3) {
-                    background-color: #4c4c5c;
+                    // background-color: #4c4c5c;
                     width: 80px;
                     flex: none !important;
                 }
             }
 
             div:nth-child(11) {
-                background-color: red;
+                // background-color: red;
                 width: 66px;
                 flex: none !important;
             }
 
             div:nth-child(12) {
-                background-color: #4c4c5c;
+                // background-color: #4c4c5c;
                 width: 50px;
                 flex: none !important;
             }
 
             div:nth-child(13) {
-                background-color: red;
+                // background-color: red;
                 width: 135px;
                 flex: none !important;
             }
 
             div:nth-child(14) {
-                background-color: #4c4c5c;
+                // background-color: #4c4c5c;
                 width: 150px;
                 flex: none !important;
             }
 
             div:nth-child(15) {
-                background-color: red;
-                width: 135px;
+                // background-color: red;
+                width: 145px;
                 flex: none !important;
+            }
+
+            &_sdfa-points {
+                padding: 0 !important;
+                div:first-child {
+                    // background-color: #4c4c5c;
+                    width: 65px;
+                    flex: none !important;
+                }
+                div:nth-child(2) {
+                    // background-color: red;
+                    width: 22px;
+                    flex: none !important;
+                }
+                div:nth-child(3) {
+                    background-color: pink;
+                    width: 70px;
+                    flex: none !important;
+                }
             }
 
         }

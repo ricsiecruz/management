@@ -102,4 +102,26 @@ export class DerbySdfaComponent implements OnInit {
       }
     });
   }
+
+  getWeekAverage(weekIndex: number, dataIndex: number): number {
+    switch (weekIndex) {
+      case 0:
+        return this.weekOne[dataIndex] || 0;
+      case 1:
+        return this.weekTwo[dataIndex] || 0;
+      case 2:
+        return this.weekThree[dataIndex] || 0;
+      case 3:
+        return this.weekFour[dataIndex] || 0;
+      case 4:
+        return this.weekFive[dataIndex] || 0;
+      default:
+        return 0;
+    }
+  }
+
+  // New function to calculate sdfaWeekAve
+  calculateSdfaWeekAve(points: number, f: number): number {
+    return points * f;
+  }
 }
