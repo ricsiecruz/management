@@ -13,11 +13,12 @@ export class DerbySdfaComponent implements OnInit {
   mainService = inject(MainService);
   headers: string[] = [];
   data: any[] = [];
-  weekOne: string[] = [];
-  weekTwo: string[] = [];
-  weekThree: string[] = [];
-  weekFour: string[] = [];
-  weekFive: string[] = [];
+  weekOne: number[] = [];
+  weekTwo: number[] = [];
+  weekThree: number[] = [];
+  weekFour: number[] = [];
+  weekFive: number[] = [];
+  upr: number[] = [];
 
   constructor() {}
 
@@ -27,14 +28,15 @@ export class DerbySdfaComponent implements OnInit {
         this.headers = response.derbySdfa[0].headers;
         this.data = response.derbySdfa[1].data;
 
-        console.log('data', this.data)
+        console.log('data', this.data);
 
+        // Populate weekOne to weekFive arrays with numbers
         this.data.forEach(item => {
           if (item.week1) {
             item.week1.forEach((week: any) => {
               const weekOneValue = week.totalBirds
-                ? (week.rank / week.totalBirds).toFixed(2)
-                : "0.00";
+                ? parseFloat((week.rank / week.totalBirds).toFixed(2))
+                : 0.0;
               this.weekOne.push(weekOneValue);
             });
           }
@@ -43,10 +45,10 @@ export class DerbySdfaComponent implements OnInit {
         this.data.forEach(item => {
           if (item.week2) {
             item.week2.forEach((week: any) => {
-              const weekOneValue = week.totalBirds
-                ? (week.rank / week.totalBirds).toFixed(2)
-                : "0.00";
-              this.weekTwo.push(weekOneValue);
+              const weekTwoValue = week.totalBirds
+                ? parseFloat((week.rank / week.totalBirds).toFixed(2))
+                : 0.0;
+              this.weekTwo.push(weekTwoValue);
             });
           }
         });
@@ -54,10 +56,10 @@ export class DerbySdfaComponent implements OnInit {
         this.data.forEach(item => {
           if (item.week3) {
             item.week3.forEach((week: any) => {
-              const weekOneValue = week.totalBirds
-                ? (week.rank / week.totalBirds).toFixed(2)
-                : "0.00";
-              this.weekThree.push(weekOneValue);
+              const weekThreeValue = week.totalBirds
+                ? parseFloat((week.rank / week.totalBirds).toFixed(2))
+                : 0.0;
+              this.weekThree.push(weekThreeValue);
             });
           }
         });
@@ -65,26 +67,38 @@ export class DerbySdfaComponent implements OnInit {
         this.data.forEach(item => {
           if (item.week4) {
             item.week4.forEach((week: any) => {
-              const weekOneValue = week.totalBirds
-                ? (week.rank / week.totalBirds).toFixed(2)
-                : "0.00";
-              this.weekFour.push(weekOneValue);
+              const weekFourValue = week.totalBirds
+                ? parseFloat((week.rank / week.totalBirds).toFixed(2))
+                : 0.0;
+              this.weekFour.push(weekFourValue);
             });
           }
         });
 
         this.data.forEach(item => {
-          if (item.week4) {
-            item.week4.forEach((week: any) => {
-              const weekOneValue = week.totalBirds
-                ? (week.rank / week.totalBirds).toFixed(2)
-                : "0.00";
-              this.weekFive.push(weekOneValue);
+          if (item.week5) {
+            item.week5.forEach((week: any) => {
+              const weekFiveValue = week.totalBirds
+                ? parseFloat((week.rank / week.totalBirds).toFixed(2))
+                : 0.0;
+              this.weekFive.push(weekFiveValue);
             });
           }
         });
 
-        console.log('weekOne', this.weekOne); // Check values in console
+        // Calculate average UPR for each entry and assign to upr
+        const numberOfEntries = this.weekOne.length;
+        for (let i = 0; i < numberOfEntries; i++) {
+          const total = (this.weekOne[i] || 0) +
+                        (this.weekTwo[i] || 0) +
+                        (this.weekThree[i] || 0) +
+                        (this.weekFour[i] || 0) +
+                        (this.weekFive[i] || 0);
+          const average = parseFloat((total / 5).toFixed(2));
+          this.upr.push(average);
+        }
+
+        console.log('upr', this.upr); // Verify UPR values in console
       }
     });
   }
