@@ -1,0 +1,24 @@
+.derby-sdfa {
+    &_cards {
+        display: flex;
+        column-gap: 20px;
+        &_content {
+            background: #ffffff;
+            border-radius: 5px;
+            width: 157px;
+            padding: 24px;
+            text-align: center;
+            box-shadow: 0px 0px 35px 0px rgba(104, 134, 177, 0.15);
+            &_title {
+                font-size: 13px;
+                color: #9ba6b7;
+                margin-bottom: 8px;
+            }
+            &_data {
+                font-size: 22px;
+                font-weight: 700;
+                color: #4c4c5c;
+            }
+        }
+    }
+}

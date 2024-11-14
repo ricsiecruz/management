@@ -1,0 +1,12 @@
+{
+    "menu": [
+        {
+            "link": "derby-sdfa",
+            "label": "DERBY-SDFA"
+        },
+        {
+            "link": "database",
+            "label": "Database"
+        }
+    ]
+}

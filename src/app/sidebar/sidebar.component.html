@@ -1,0 +1,5 @@
+<div class="sidebar">
+    <div *ngFor="let data of menu" [routerLink]="data.link" routerLinkActive="active">
+    {{ data.label }}
+    </div>
+</div>
