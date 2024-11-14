@@ -9,7 +9,7 @@
             "label": "Database"
         }
     ],
-    "derby-sdfa": [
+    "derbySdfa": [
         {
             "id": "PHA-3020870",
             "line": "A04",
@@ -20,6 +20,63 @@
                 {
                     "rank": "1.00",
                     "totalBirds": "24.00"
+                }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
                 }
             ]
         },
@@ -34,6 +91,63 @@
                     "rank": "2",
                     "totalBirds": "24.00"
                 }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
+                }
             ]
         },
         {
@@ -46,6 +160,63 @@
                 {
                     "rank": "3",
                     "totalBirds": "24.00"
+                }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
                 }
             ]
         },
@@ -60,6 +231,63 @@
                     "rank": "4",
                     "totalBirds": "24.00"
                 }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
+                }
             ]
         },
         {
@@ -72,6 +300,63 @@
                 {
                     "rank": "5",
                     "totalBirds": "24.00"
+                }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
                 }
             ]
         },
@@ -86,6 +371,63 @@
                     "rank": "6",
                     "totalBirds": "24.00"
                 }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
+                }
             ]
         },
         {
@@ -98,6 +440,63 @@
                 {
                     "rank": "7",
                     "totalBirds": "24.00"
+                }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
                 }
             ]
         },
@@ -112,6 +511,63 @@
                     "rank": "8",
                     "totalBirds": "24.00"
                 }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
+                }
             ]
         },
         {
@@ -124,6 +580,63 @@
                 {
                     "rank": "9",
                     "totalBirds": "24.00"
+                }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
                 }
             ]
         },
@@ -138,6 +651,63 @@
                     "rank": "10",
                     "totalBirds": "24.00"
                 }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
+                }
             ]
         },
         {
@@ -150,6 +720,63 @@
                 {
                     "rank": "11",
                     "totalBirds": "24.00"
+                }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
                 }
             ]
         },
@@ -164,6 +791,63 @@
                     "rank": "12",
                     "totalBirds": "24.00"
                 }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
+                }
             ]
         },
         {
@@ -176,6 +860,63 @@
                 {
                     "rank": "13",
                     "totalBirds": "24.00"
+                }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
                 }
             ]
         },
@@ -190,6 +931,63 @@
                     "rank": "14",
                     "totalBirds": "24.00"
                 }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
+                }
             ]
         },
         {
@@ -202,6 +1000,63 @@
                 {
                     "rank": "15",
                     "totalBirds": "24.00"
+                }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
                 }
             ]
         },
@@ -216,6 +1071,63 @@
                     "rank": "16",
                     "totalBirds": "24.00"
                 }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
+                }
             ]
         },
         {
@@ -228,6 +1140,63 @@
                 {
                     "rank": "17",
                     "totalBirds": "24.00"
+                }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
                 }
             ]
         },
@@ -242,6 +1211,63 @@
                     "rank": "18",
                     "totalBirds": "24.00"
                 }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
+                }
             ]
         },
         {
@@ -254,6 +1280,63 @@
                 {
                     "rank": "19",
                     "totalBirds": "24.00"
+                }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
                 }
             ]
         },
@@ -268,6 +1351,63 @@
                     "rank": "20",
                     "totalBirds": "24.00"
                 }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
+                }
             ]
         },
         {
@@ -280,6 +1420,63 @@
                 {
                     "rank": "21",
                     "totalBirds": "24.00"
+                }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
                 }
             ]
         },
@@ -294,6 +1491,63 @@
                     "rank": "22",
                     "totalBirds": "24.00"
                 }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
+                }
             ]
         },
         {
@@ -307,6 +1561,63 @@
                     "rank": "23",
                     "totalBirds": "24.00"
                 }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
+                }
             ]
         },
         {
@@ -319,6 +1630,63 @@
                 {
                     "rank": "24",
                     "totalBirds": "24.00"
+                }
+            ],
+            "week2": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week3": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week4": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "week5": [
+                {
+                    "rank": "",
+                    "totalBirds": ""
+                }
+            ],
+            "upr": "",
+            "sd": "",
+            "sdfaCoefficient": "",
+            "remarks": "",
+            "sdfaPoints": [
+                {
+                    "week1": {
+                        "points": "",
+                        "f": "",
+                        "week1": ""
+                    },
+                    "week2": {
+                        "points": "",
+                        "f": "",
+                        "week2": ""
+                    },
+                    "week3": {
+                        "points": "",
+                        "f": "",
+                        "week3": ""
+                    },
+                    "week4": {
+                        "points": "",
+                        "f": "",
+                        "week4": ""
+                    },
+                    "week5": {
+                        "points": "",
+                        "f": "",
+                        "week5": ""
+                    }
                 }
             ]
         }
