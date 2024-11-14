@@ -11,1684 +11,1733 @@
     ],
     "derbySdfa": [
         {
-            "id": "PHA-3020870",
-            "line": "A04",
-            "family": "ALFONS",
-            "sire": "2019 PHA2019-1922087 COCK",
-            "dam": "GENETIX 2020-202580",
-            "week1": [
-                {
-                    "rank": "1.00",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
-                    }
-                }
+            "headers": [
+              "ID",
+              "Line No.",
+              "Family",
+              "Sire",
+              "Dam",
+              "rank",
+              "total birds",
+              "Week 1",
+              "rank",
+              "total birds",
+              "Week 2",
+              "rank",
+              "total birds",
+              "Week 3",
+              "rank",
+              "total birds",
+              "Week 4",
+              "rank",
+              "total birds",
+              "Week 5",
+              "UPR",
+              "SD",
+              "SDFA coefficient",
+              "Remarks",
+              "ID",
+              "points",
+              "f",
+              "Week 1",
+              "points",
+              "f",
+              "Week 2",
+              "points",
+              "f",
+              "Week 3",
+              "points",
+              "f",
+              "Week 4",
+              "points",
+              "f",
+              "Week 5"
             ]
         },
         {
-            "id": "PHA-3128827",
-            "line": "A03",
-            "family": "ALFONS",
-            "sire": "2019 PHA2019-1922087 COCK",
-            "dam": "2020 GENETIX 20-2677 HEN",
-            "week1": [
-                {
-                    "rank": "2",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+            "data": [
+            {
+                "id": "PHA-3020870",
+                "line": "A04",
+                "family": "ALFONS",
+                "sire": "2019 PHA2019-1922087 COCK",
+                "dam": "GENETIX 2020-202580",
+                "week1": [
+                    {
+                        "rank": "1.00",
+                        "totalBirds": "24.00"
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-1704021",
-            "line": "A01",
-            "family": "ALFONS",
-            "sire": "2019 PHA2019-1928512 COCK",
-            "dam": "2019 PHA2019-1913541 HEN",
-            "week1": [
-                {
-                    "rank": "3",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-3218707",
-            "line": "F03",
-            "family": "FREIALDENHOFEN",
-            "sire": "2019 DV06348--19-759 COCK",
-            "dam": "HALF SISTER BARCELONA STAR, 06348-18-870 WHEN",
-            "week1": [
-                {
-                    "rank": "4",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-3020849",
-            "line": "G03",
-            "family": "Kurt & Raf Platteeuw",
-            "sire": "2021 PHA 2022-22A5176 COCK",
-            "dam": "2015 BE15-3115083 HEN",
-            "week1": [
-                {
-                    "rank": "5",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHIL-23A21633",
-            "line": "F06",
-            "family": "FREIALDENHOFEN",
-            "sire": "PHA2022 22A5175",
-            "dam": "DV06348-19-671",
-            "week1": [
-                {
-                    "rank": "6",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-3178558",
-            "line": "G01",
-            "family": "Kurt & Raf Platteeuw",
-            "sire": "2016 BE16-3116383 COCK",
-            "dam": "2015 BE15-3115083 HEN",
-            "week1": [
-                {
-                    "rank": "7",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-1704011",
-            "line": "F06",
-            "family": "FREIALDENHOFEN",
-            "sire": "PHA2022 22A5175",
-            "dam": "DV06348-19-671",
-            "week1": [
-                {
-                    "rank": "8",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ]
+            },
+            {
+                "id": "PHA-3128827",
+                "line": "A03",
+                "family": "ALFONS",
+                "sire": "2019 PHA2019-1922087 COCK",
+                "dam": "2020 GENETIX 20-2677 HEN",
+                "week1": [
+                    {
+                        "rank": "2",
+                        "totalBirds": "24.00"
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-1704024",
-            "line": "A04",
-            "family": "ALFONS",
-            "sire": "2019 PHA2019-1922087 COCK",
-            "dam": "GENETIX 2020-202580",
-            "week1": [
-                {
-                    "rank": "9",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-1704013",
-            "line": "F07",
-            "family": "FREIALDENHOFEN",
-            "sire": "2021 GENETIX 2021 22325 COCK",
-            "dam": "",
-            "week1": [
-                {
-                    "rank": "10",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-22A6180",
-            "line": "F05",
-            "family": "FREIALDENHOFEN",
-            "sire": "2021 PHA2021 3128816 COCK",
-            "dam": "GENETIX 2021 22314",
-            "week1": [
-                {
-                    "rank": "11",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-1704009",
-            "line": "FB01",
-            "family": "FREIALDENHOFEN X BGQ",
-            "sire": "PHA2022 22A5171",
-            "dam": "2021 GENETIX 2021 22329 HEN",
-            "week1": [
-                {
-                    "rank": "12",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "GENETIX-230901",
-            "line": "A02",
-            "family": "ALFONS",
-            "sire": "2019 PHA2019-1922087COCK",
-            "dam": "2021 GENETIX 2021 22329 HEN",
-            "week1": [
-                {
-                    "rank": "13",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-3020856",
-            "line": "F08",
-            "family": "FREIALDENHOFEN",
-            "sire": "DV06348--19-759",
-            "dam": "2020 APRX 2021 210993 HEN",
-            "week1": [
-                {
-                    "rank": "14",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ]
+            },
+            {
+                "id": "PHA-1704021",
+                "line": "A01",
+                "family": "ALFONS",
+                "sire": "2019 PHA2019-1928512 COCK",
+                "dam": "2019 PHA2019-1913541 HEN",
+                "week1": [
+                    {
+                        "rank": "3",
+                        "totalBirds": "24.00"
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-22A6178",
-            "line": "C01",
-            "family": "CRESTED JAN AARDEN",
-            "sire": "2019 AU2019-JEDDS38303 COCK",
-            "dam": "GENETIX 2021 22329",
-            "week1": [
-                {
-                    "rank": "15",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-23-3020828",
-            "line": "A01",
-            "family": "ALFONS",
-            "sire": "2019 PHA2019-1922087 COCK",
-            "dam": "2019 AU2018-JEDDS28136 HEN",
-            "week1": [
-                {
-                    "rank": "16",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHIL-23A21284",
-            "line": "",
-            "family": "",
-            "sire": "",
-            "dam": "",
-            "week1": [
-                {
-                    "rank": "17",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-3020854",
-            "line": "A04",
-            "family": "ALFONS",
-            "sire": "2019 PHA2019-1922087 COCK",
-            "dam": "GENETIX 2020-202580",
-            "week1": [
-                {
-                    "rank": "18",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-3020837",
-            "line": "F09",
-            "family": "FREIALDENHOFEN",
-            "sire": "PHA2022 22A6182",
-            "dam": "DV06348-19-671",
-            "week1": [
-                {
-                    "rank": "19",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-3020836",
-            "line": "",
-            "family": "",
-            "sire": "",
-            "dam": "",
-            "week1": [
-                {
-                    "rank": "20",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ]
+            },
+            {
+                "id": "PHA-3218707",
+                "line": "F03",
+                "family": "FREIALDENHOFEN",
+                "sire": "2019 DV06348--19-759 COCK",
+                "dam": "HALF SISTER BARCELONA STAR, 06348-18-870 WHEN",
+                "week1": [
+                    {
+                        "rank": "4",
+                        "totalBirds": "24.00"
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-3020825",
-            "line": "AG01",
-            "family": "ALFONS X Kurt & Raf Platteeuw",
-            "sire": "PHA2022 22A5187",
-            "dam": "PHA 2021 3178558",
-            "week1": [
-                {
-                    "rank": "21",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-3020826",
-            "line": "CV02",
-            "family": "Alfons X Van Den Broucke",
-            "sire": "PHA2022 22A5187",
-            "dam": "PHA2019-1913544",
-            "week1": [
-                {
-                    "rank": "22",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-3020843",
-            "line": "F10",
-            "family": "FREIALDENHOFEN",
-            "sire": "PHA2021 3128829",
-            "dam": "GENETIX 2021 22312",
-            "week1": [
-                {
-                    "rank": "23",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        },
-        {
-            "id": "PHA-22A5191",
-            "line": "F11",
-            "family": "FREIALDENHOFEN",
-            "sire": "PHA2022 22A5174",
-            "dam": "DV06348-19-671",
-            "week1": [
-                {
-                    "rank": "24",
-                    "totalBirds": "24.00"
-                }
-            ],
-            "week2": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week3": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week4": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "week5": [
-                {
-                    "rank": "",
-                    "totalBirds": ""
-                }
-            ],
-            "upr": "",
-            "sd": "",
-            "sdfaCoefficient": "",
-            "remarks": "",
-            "sdfaPoints": [
-                {
-                    "week1": {
-                        "points": "",
-                        "f": "",
-                        "week1": ""
-                    },
-                    "week2": {
-                        "points": "",
-                        "f": "",
-                        "week2": ""
-                    },
-                    "week3": {
-                        "points": "",
-                        "f": "",
-                        "week3": ""
-                    },
-                    "week4": {
-                        "points": "",
-                        "f": "",
-                        "week4": ""
-                    },
-                    "week5": {
-                        "points": "",
-                        "f": "",
-                        "week5": ""
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
                     }
-                }
-            ]
-        }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-3020849",
+                "line": "G03",
+                "family": "Kurt & Raf Platteeuw",
+                "sire": "2021 PHA 2022-22A5176 COCK",
+                "dam": "2015 BE15-3115083 HEN",
+                "week1": [
+                    {
+                        "rank": "5",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHIL-23A21633",
+                "line": "F06",
+                "family": "FREIALDENHOFEN",
+                "sire": "PHA2022 22A5175",
+                "dam": "DV06348-19-671",
+                "week1": [
+                    {
+                        "rank": "6",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-3178558",
+                "line": "G01",
+                "family": "Kurt & Raf Platteeuw",
+                "sire": "2016 BE16-3116383 COCK",
+                "dam": "2015 BE15-3115083 HEN",
+                "week1": [
+                    {
+                        "rank": "7",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-1704011",
+                "line": "F06",
+                "family": "FREIALDENHOFEN",
+                "sire": "PHA2022 22A5175",
+                "dam": "DV06348-19-671",
+                "week1": [
+                    {
+                        "rank": "8",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-1704024",
+                "line": "A04",
+                "family": "ALFONS",
+                "sire": "2019 PHA2019-1922087 COCK",
+                "dam": "GENETIX 2020-202580",
+                "week1": [
+                    {
+                        "rank": "9",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-1704013",
+                "line": "F07",
+                "family": "FREIALDENHOFEN",
+                "sire": "2021 GENETIX 2021 22325 COCK",
+                "dam": "",
+                "week1": [
+                    {
+                        "rank": "10",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-22A6180",
+                "line": "F05",
+                "family": "FREIALDENHOFEN",
+                "sire": "2021 PHA2021 3128816 COCK",
+                "dam": "GENETIX 2021 22314",
+                "week1": [
+                    {
+                        "rank": "11",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-1704009",
+                "line": "FB01",
+                "family": "FREIALDENHOFEN X BGQ",
+                "sire": "PHA2022 22A5171",
+                "dam": "2021 GENETIX 2021 22329 HEN",
+                "week1": [
+                    {
+                        "rank": "12",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "GENETIX-230901",
+                "line": "A02",
+                "family": "ALFONS",
+                "sire": "2019 PHA2019-1922087COCK",
+                "dam": "2021 GENETIX 2021 22329 HEN",
+                "week1": [
+                    {
+                        "rank": "13",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-3020856",
+                "line": "F08",
+                "family": "FREIALDENHOFEN",
+                "sire": "DV06348--19-759",
+                "dam": "2020 APRX 2021 210993 HEN",
+                "week1": [
+                    {
+                        "rank": "14",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-22A6178",
+                "line": "C01",
+                "family": "CRESTED JAN AARDEN",
+                "sire": "2019 AU2019-JEDDS38303 COCK",
+                "dam": "GENETIX 2021 22329",
+                "week1": [
+                    {
+                        "rank": "15",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-23-3020828",
+                "line": "A01",
+                "family": "ALFONS",
+                "sire": "2019 PHA2019-1922087 COCK",
+                "dam": "2019 AU2018-JEDDS28136 HEN",
+                "week1": [
+                    {
+                        "rank": "16",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHIL-23A21284",
+                "line": "",
+                "family": "",
+                "sire": "",
+                "dam": "",
+                "week1": [
+                    {
+                        "rank": "17",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-3020854",
+                "line": "A04",
+                "family": "ALFONS",
+                "sire": "2019 PHA2019-1922087 COCK",
+                "dam": "GENETIX 2020-202580",
+                "week1": [
+                    {
+                        "rank": "18",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-3020837",
+                "line": "F09",
+                "family": "FREIALDENHOFEN",
+                "sire": "PHA2022 22A6182",
+                "dam": "DV06348-19-671",
+                "week1": [
+                    {
+                        "rank": "19",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-3020836",
+                "line": "",
+                "family": "",
+                "sire": "",
+                "dam": "",
+                "week1": [
+                    {
+                        "rank": "20",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-3020825",
+                "line": "AG01",
+                "family": "ALFONS X Kurt & Raf Platteeuw",
+                "sire": "PHA2022 22A5187",
+                "dam": "PHA 2021 3178558",
+                "week1": [
+                    {
+                        "rank": "21",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-3020826",
+                "line": "CV02",
+                "family": "Alfons X Van Den Broucke",
+                "sire": "PHA2022 22A5187",
+                "dam": "PHA2019-1913544",
+                "week1": [
+                    {
+                        "rank": "22",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-3020843",
+                "line": "F10",
+                "family": "FREIALDENHOFEN",
+                "sire": "PHA2021 3128829",
+                "dam": "GENETIX 2021 22312",
+                "week1": [
+                    {
+                        "rank": "23",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PHA-22A5191",
+                "line": "F11",
+                "family": "FREIALDENHOFEN",
+                "sire": "PHA2022 22A5174",
+                "dam": "DV06348-19-671",
+                "week1": [
+                    {
+                        "rank": "24",
+                        "totalBirds": "24.00"
+                    }
+                ],
+                "week2": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week3": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week4": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "week5": [
+                    {
+                        "rank": "",
+                        "totalBirds": ""
+                    }
+                ],
+                "upr": "",
+                "sd": "",
+                "sdfaCoefficient": "",
+                "remarks": "",
+                "sdfaPoints": [
+                    {
+                        "week1": {
+                            "points": "",
+                            "f": "",
+                            "week1": ""
+                        },
+                        "week2": {
+                            "points": "",
+                            "f": "",
+                            "week2": ""
+                        },
+                        "week3": {
+                            "points": "",
+                            "f": "",
+                            "week3": ""
+                        },
+                        "week4": {
+                            "points": "",
+                            "f": "",
+                            "week4": ""
+                        },
+                        "week5": {
+                            "points": "",
+                            "f": "",
+                            "week5": ""
+                        }
+                    }
+                ]
+            }
+            
+        ]
+    }
     ]
 }

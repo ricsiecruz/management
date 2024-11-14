@@ -18,8 +18,29 @@
         </div>
     </div>
     <div class="derby-sdfa_table">
-        <div *ngFor="let item of data">
-            {{ item.id }}
+        <div class="derby-sdfa_table_header">
+            <div *ngFor="let item of headers">
+                {{ item }}
+            </div>
+        </div>
+        <div class="derby-sdfa_table_content">
+            <div *ngFor="let item of data; let i = index">
+                <div>{{ item.id }}</div>
+                <div>{{ item.line }}</div>
+                <div>{{ item.family }}</div>
+                <div>{{ item.sire }}</div>
+                <div>{{ item.dam }}</div>
+              
+                <!-- Loop through each week in week1 -->
+                <div *ngFor="let week of item.week1" class="derby-sdfa_table_content_week">
+                  <div>{{ week.rank }}</div>
+                  <div>{{ week.totalBirds }}</div>
+              
+                  <!-- Access specific weekOne value based on index 'i' -->
+                  <div>{{ weekOnes[i] }}</div>
+                </div>
+              </div>
+              
         </div>
     </div>
 </div>
