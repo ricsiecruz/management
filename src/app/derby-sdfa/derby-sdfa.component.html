@@ -31,15 +31,36 @@
                 <div>{{ item.sire }}</div>
                 <div>{{ item.dam }}</div>
               
-                <!-- Loop through each week in week1 -->
                 <div *ngFor="let week of item.week1" class="derby-sdfa_table_content_week">
                   <div>{{ week.rank }}</div>
                   <div>{{ week.totalBirds }}</div>
-              
-                  <!-- Access specific weekOne value based on index 'i' -->
-                  <div>{{ weekOnes[i] }}</div>
+                  <div>{{ weekOne[i] }}</div>
                 </div>
-              </div>
+              
+                <div *ngFor="let week of item.week2" class="derby-sdfa_table_content_week">
+                  <div>{{ week.rank ? week.rank : '-' }}</div>
+                  <div>{{ week.totalBirds ? week.totalBirds : '-' }}</div>
+                  <div>{{ weekTwo[i] }}</div>
+                </div>
+
+                <div *ngFor="let week of item.week3" class="derby-sdfa_table_content_week">
+                    <div>{{ week.rank ? week.rank : '-' }}</div>
+                    <div>{{ week.totalBirds ? week.totalBirds : '-' }}</div>
+                    <div>{{ weekThree[i] }}</div>
+                </div>
+                
+                <div *ngFor="let week of item.week4" class="derby-sdfa_table_content_week">
+                    <div>{{ week.rank ? week.rank : '-' }}</div>
+                    <div>{{ week.totalBirds ? week.totalBirds : '-' }}</div>
+                    <div>{{ weekFour[i] }}</div>
+                </div>
+                
+                <div *ngFor="let week of item.week5" class="derby-sdfa_table_content_week">
+                    <div>{{ week.rank ? week.rank : '-' }}</div>
+                    <div>{{ week.totalBirds ? week.totalBirds : '-' }}</div>
+                    <div>{{ weekFive[i] }}</div>
+                </div>
+            </div>
               
         </div>
     </div>

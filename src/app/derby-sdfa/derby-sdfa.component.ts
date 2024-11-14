@@ -13,7 +13,11 @@ export class DerbySdfaComponent implements OnInit {
   mainService = inject(MainService);
   headers: string[] = [];
   data: any[] = [];
-  weekOnes: string[] = []; // Array to hold all `weekOne` values
+  weekOne: string[] = [];
+  weekTwo: string[] = [];
+  weekThree: string[] = [];
+  weekFour: string[] = [];
+  weekFive: string[] = [];
 
   constructor() {}
 
@@ -25,19 +29,62 @@ export class DerbySdfaComponent implements OnInit {
 
         console.log('data', this.data)
 
-        // Calculate `weekOne` for each week entry and push to `weekOnes`
         this.data.forEach(item => {
           if (item.week1) {
             item.week1.forEach((week: any) => {
               const weekOneValue = week.totalBirds
                 ? (week.rank / week.totalBirds).toFixed(2)
                 : "0.00";
-              this.weekOnes.push(weekOneValue);
+              this.weekOne.push(weekOneValue);
             });
           }
         });
 
-        console.log('weekOnes', this.weekOnes); // Check values in console
+        this.data.forEach(item => {
+          if (item.week2) {
+            item.week2.forEach((week: any) => {
+              const weekOneValue = week.totalBirds
+                ? (week.rank / week.totalBirds).toFixed(2)
+                : "0.00";
+              this.weekTwo.push(weekOneValue);
+            });
+          }
+        });
+
+        this.data.forEach(item => {
+          if (item.week3) {
+            item.week3.forEach((week: any) => {
+              const weekOneValue = week.totalBirds
+                ? (week.rank / week.totalBirds).toFixed(2)
+                : "0.00";
+              this.weekThree.push(weekOneValue);
+            });
+          }
+        });
+
+        this.data.forEach(item => {
+          if (item.week4) {
+            item.week4.forEach((week: any) => {
+              const weekOneValue = week.totalBirds
+                ? (week.rank / week.totalBirds).toFixed(2)
+                : "0.00";
+              this.weekFour.push(weekOneValue);
+            });
+          }
+        });
+
+        this.data.forEach(item => {
+          if (item.week4) {
+            item.week4.forEach((week: any) => {
+              const weekOneValue = week.totalBirds
+                ? (week.rank / week.totalBirds).toFixed(2)
+                : "0.00";
+              this.weekFive.push(weekOneValue);
+            });
+          }
+        });
+
+        console.log('weekOne', this.weekOne); // Check values in console
       }
     });
   }
