@@ -1,6 +1,8 @@
+<app-login *ngIf="isLoginRoute"></app-login>
+
 <app-sign-up *ngIf="isSignupRoute"></app-sign-up>
 
-<div *ngIf="!isSignupRoute" class="app">
+<div *ngIf="!isSignupRoute && !isLoginRoute" class="app">
     <app-sidebar></app-sidebar>
     <div class="app_content">
         <router-outlet></router-outlet>
