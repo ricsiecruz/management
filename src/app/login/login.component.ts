@@ -49,5 +49,9 @@ export class LoginComponent {
       );
     }
   }
+
+  redirectToSignup(): void {
+    this.router.navigate(['/signup']);
+  }
   
 }

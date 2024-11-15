@@ -48,5 +48,15 @@
                 background-color: #3f54e7;
             }
         }
+        &_signup {
+            font-size: 13px;
+            text-align: center;
+            margin-top: 1.5rem;
+            span {
+                font-weight: 600;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
     }
 }

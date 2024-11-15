@@ -18,5 +18,8 @@
             </div>
             <button type="submit" [disabled]="loginForm.invalid">Login</button>
         </form>
+        <div class="login_card_signup">
+            Don't have an account? <span (click)="redirectToSignup()">Sign up</span>
+        </div>
     </div>
 </div>
