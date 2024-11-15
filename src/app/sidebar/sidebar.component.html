@@ -2,5 +2,6 @@
     <div *ngFor="let data of menu" [routerLink]="data.link" routerLinkActive="active">
     {{ data.label }}
     </div>
+    <div *ngIf="role">Users</div>
     <button (click)="onLogout()">Logout</button>
 </div>

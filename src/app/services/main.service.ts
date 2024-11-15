@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { environment } from '../../environments/environment';
 
 @Injectable({
@@ -9,8 +9,16 @@ import { environment } from '../../environments/environment';
 export class MainService {
   API = 'assets/data.json';
   API_URL = environment.apiUrl;
-  private isLoggedIn = false; // Tracks login state
-  private authToken: string | null = null; // Stores token if needed
+  private roleSubject = new BehaviorSubject<string | null>(null);
+  role$ = this.roleSubject.asObservable();
+
+  setRole(role: string): void {
+    this.roleSubject.next(role);
+  }
+
+  getRole(): string | null {
+    return this.roleSubject.value;
+  }
 
   constructor(private http: HttpClient) {}
 

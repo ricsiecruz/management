@@ -13,6 +13,7 @@ import { CommonModule } from '@angular/common';
 })
 export class LoginComponent {
   loginForm!: FormGroup;
+  role: string | null = null;
 
   constructor(
     private fb: FormBuilder,
@@ -25,28 +26,27 @@ export class LoginComponent {
     //   email: ['', [Validators.required, Validators.email]],
     //   password: ['', [Validators.required, Validators.minLength(6)]]
     // });
-    // this.loginForm = this.fb.group({
-    //   email: ['johndoe@example.com', [Validators.required, Validators.email]],
-    //   password: ['securepassword', [Validators.required, Validators.minLength(6)]]
-    // });
     this.loginForm = this.fb.group({
-      email: ['super_admin@mail.com', [Validators.required, Validators.email]],
-      password: ['123qwe', [Validators.required, Validators.minLength(6)]]
+      email: ['johndoe@example.com', [Validators.required, Validators.email]],
+      password: ['securepassword', [Validators.required, Validators.minLength(6)]]
     });
+    // this.loginForm = this.fb.group({
+    //   email: ['super_admin@mail.com', [Validators.required, Validators.email]],
+    //   password: ['123qwe', [Validators.required, Validators.minLength(6)]]
+    // });
   }
 
   onSubmit(): void {
-    console.log('nope')
     if (this.loginForm.valid) {
       const payload = {
         email: this.loginForm.value.email,
         password: this.loginForm.value.password
       };
-      console.log('Payload being submitted:', payload);
-  
+
       this.mainService.login(payload).subscribe(
         (response) => {
           console.log('Login successful', response);
+          this.mainService.setRole(response.role); // Set the role in the service
           this.router.navigate(['/derby-sdfa']);
         },
         (error) => {
