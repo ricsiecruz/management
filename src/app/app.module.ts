@@ -8,6 +8,7 @@ import { MainService } from './services/main.service';
 import { CommonModule } from '@angular/common';
 import { AppSignUpComponent } from './sign-up/sign-up.component';
 import { LoginComponent } from './login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LoginComponent } from './login/login.component';
   ],
   imports: [
     BrowserModule,
-    CommonModule
+    CommonModule,
+    ReactiveFormsModule 
   ],
   providers: [MainService],
   bootstrap: [AppComponent]

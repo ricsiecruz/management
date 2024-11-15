@@ -18,6 +18,10 @@ export class MainService {
   getData(): Observable<any> {
     return this.http.get<any>(this.API);  // Correct usage
   }
+
+  login(payload: any): Observable<any> {
+    return this.http.post<any>(this.API_URL + 'login', payload)
+  }
   
   getUsers(): Observable<any> {
     return this.http.get<any>(this.API_URL + 'users')
