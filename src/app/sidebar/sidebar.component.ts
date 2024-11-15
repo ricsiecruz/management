@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { MainService } from '../services/main.service';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 
 @Component({
   standalone: true,
@@ -16,11 +16,16 @@ export class AppSidebarComponent {
 
   menu: any;
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
     this.mainService.getData().subscribe((data: any) => {
       this.menu = data.menu;
     });
+  }
+
+  onLogout(): void {
+    this.mainService.logout();
+    this.router.navigate(['/login']); // Redirect to login
   }
 }
