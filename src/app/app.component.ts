@@ -1,45 +1,34 @@
 import { Component, inject } from '@angular/core';
-import { bootstrapApplication } from '@angular/platform-browser';
-import { provideHttpClient, withFetch } from '@angular/common/http'; // Import provideHttpClient with features
-import { provideRouter, RouterModule, RouterOutlet } from '@angular/router'; // Import Router for routing
-import { Routes } from '@angular/router'; // Import Routes for defining routes
-import { MainService } from './services/main.service';  // Ensure the service is imported
+import { Router, RouterOutlet } from '@angular/router';
+import { MainService } from './services/main.service';
 import { AppSidebarComponent } from './sidebar/sidebar.component';
-
-// Define routes (if any)
-const routes: Routes = [
-  // Your app routes go here
-];
+import { AppSignUpComponent } from './sign-up/sign-up.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  standalone: true,  // Mark component as standalone
-  imports: [AppSidebarComponent, RouterOutlet],
+  standalone: true,
+  imports: [AppSignUpComponent, AppSidebarComponent, RouterOutlet, CommonModule],
   providers: [MainService],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'angular-app';
-  data: any;
 
   mainService = inject(MainService)
 
+  isSignupRoute = false;
   menu: any;
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
+    this.router.events.subscribe(() => {
+      this.isSignupRoute = this.router.url.includes('signup');
+    });
     this.mainService.getData().subscribe((data: any) => {
       this.menu = data.link;
     });
   }
 }
-
-// // Bootstrap the application with HttpClient and Router configuration
-// bootstrapApplication(AppComponent, {
-//   providers: [
-//     provideHttpClient(withFetch()),  // Enable HttpClient with optional features like fetch
-//     provideRouter(routes)  // Provide the Router with the app routes
-//   ]
-// });

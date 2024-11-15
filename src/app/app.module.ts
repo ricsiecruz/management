@@ -7,9 +7,11 @@ import { DerbySdfaComponent } from './derby-sdfa/derby-sdfa.component';
 import { AppSidebarComponent } from './sidebar/sidebar.component';
 import { MainService } from './services/main.service';
 import { CommonModule } from '@angular/common';
+import { AppSignUpComponent } from './sign-up/sign-up.component';
 
 @NgModule({
   declarations: [
+    AppSignUpComponent,
     AppSidebarComponent,
     DatabaseComponent,
     DerbySdfaComponent
