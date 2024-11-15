@@ -20,6 +20,7 @@ export class MainService {
   }
 
   login(payload: { email: string; password: string }): Observable<any> {
+    console.log('super admin')
     return new Observable((observer) => {
       this.http.post<any>(this.API_URL + 'login', payload).subscribe(
         (response) => {
