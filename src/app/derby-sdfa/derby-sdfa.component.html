@@ -47,10 +47,14 @@
                         <div>{{ item.sdfaPoints[0][weekKey].points }}</div>
                         <div>{{ item.sdfaPoints[0][weekKey].f }}</div>
                         <div>
-                            {{ calculateSdfaWeekAve(item.sdfaPoints[0][weekKey].points, item.sdfaPoints[0][weekKey].f) }}
+                            {{ calculateSdfaWeekAve(item.sdfaPoints[0][weekKey].points, item.sdfaPoints[0][weekKey].f) }} aaa
                         </div>
                     </div>
                 </ng-container>
+                <div>
+                    {{ calculateSdfaUpr(item) }}
+                </div>
+            
             </div>
         </div>
     </div>

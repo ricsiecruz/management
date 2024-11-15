@@ -124,4 +124,22 @@ export class DerbySdfaComponent implements OnInit {
   calculateSdfaWeekAve(points: number, f: number): number {
     return points * f;
   }
+
+  // New function to calculate sdfaUpr (average across weeks)
+  calculateSdfaUpr(item: any): number {
+    const weeks = ['week1', 'week2', 'week3', 'week4', 'week5'];
+    let totalSdfa = 0;
+    let count = 0;
+
+    weeks.forEach(weekKey => {
+      if (item.sdfaPoints[0][weekKey]) {
+        const points = item.sdfaPoints[0][weekKey].points || 0;
+        const f = item.sdfaPoints[0][weekKey].f || 0;
+        totalSdfa += this.calculateSdfaWeekAve(points, f);
+        count++;
+      }
+    });
+
+    return count > 0 ? parseFloat((totalSdfa / count).toFixed(2)) : 0;
+  }
 }
