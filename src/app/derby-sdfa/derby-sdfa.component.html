@@ -34,7 +34,7 @@
                     <div *ngFor="let week of weekData" class="derby-sdfa_table_content_week">
                         <div>{{ week.rank ? week.rank : '-' }}</div>
                         <div>{{ week.totalBirds ? week.totalBirds : '-' }}</div>
-                        <div>{{ calculateWeekNo(week.rank, week.totalBirds) }}</div>
+                        <div>{{ week.week }}</div>
                     </div>
                 </ng-container>
             </div>
