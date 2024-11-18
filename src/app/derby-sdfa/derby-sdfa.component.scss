@@ -25,6 +25,9 @@
         width: 1217px; // Fixed width for the table
         overflow-x: auto; // Enable horizontal scroll inside the table
         border: 1px solid #ddd;
+
+        overflow-y: scroll;
+    max-height: 80vh;
         
         &_header {
             display: flex;
@@ -33,6 +36,11 @@
             // padding: 8px 16px;
             font-weight: 600;
             border-bottom: 1px solid #ddd;
+
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            z-index: 1;
 
             div {
                 flex: 1;
@@ -237,5 +245,11 @@
             }
 
         }
+    }
+}
+
+.test {
+    div {
+        background-color: antiquewhite;
     }
 }

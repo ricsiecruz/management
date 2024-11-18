@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="derby-sdfa_table_content">
-            <div *ngFor="let data of derbySdfa" style="background-color: aliceblue;">
+            <div *ngFor="let data of derbySdfa" class="test">
                 <div>{{ data.id }}</div>
                 <div>{{ data.line ? data.line : '-' }}</div>
                 <div>{{ data.family ? data.family : '-' }}</div>
@@ -37,6 +37,23 @@
                         <div>{{ week.week }}</div>
                     </div>
                 </ng-container>
+                <div>-</div>
+                <div>-</div>
+                <div>-</div>
+                <div>-</div>
+                <div>{{ data.id }}</div>
+                <div *ngFor="let weekData of data.sdfa_points">
+                    <div>{{ weekData.week1 ? weekData.week1.points : '-' }}</div>
+                    <div>{{ weekData.week1 ? weekData.week1.f : '-' }}</div>
+                    <div>{{ weekData.week2 ? weekData.week2.points : '-' }}</div>
+                    <div>{{ weekData.week1 ? weekData.week2.f : '-' }}</div>
+                    <div>{{ weekData.week3 ? weekData.week3.points : '-' }}</div>
+                    <div>{{ weekData.week1 ? weekData.week3.f : '-' }}</div>
+                    <div>{{ weekData.week4 ? weekData.week4.points : '-' }}</div>
+                    <div>{{ weekData.week1 ? weekData.week4.f : '-' }}</div>
+                    <div>{{ weekData.week5 ? weekData.week5.points : '-' }}</div>
+                    <div>{{ weekData.week1 ? weekData.week5.f : '-' }}</div>
+                </div>
             </div>
 
             <!--  -->
