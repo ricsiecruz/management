@@ -19,6 +19,7 @@ export class DerbySdfaComponent implements OnInit {
   weekFour: number[] = [];
   weekFive: number[] = [];
   upr: number[] = [];
+  derbySdfa: any;
 
   constructor() {}
 
@@ -101,7 +102,23 @@ export class DerbySdfaComponent implements OnInit {
         console.log('upr', this.upr); // Verify UPR values in console
       }
     });
+    this.mainService.getDerbySdfa().subscribe((res: any) => {
+      console.log('derby sdfa', res)
+      this.derbySdfa = res;
+    })
   }
+
+  calculateWeekNo(rank: string, totalBirds: string): string {
+    if (rank && totalBirds) {
+      const rankNum = parseFloat(rank);
+      const totalBirdsNum = parseFloat(totalBirds);
+      if (!isNaN(rankNum) && !isNaN(totalBirdsNum) && totalBirdsNum !== 0) {
+        const weekNo = rankNum / totalBirdsNum;
+        return weekNo.toFixed(2);  // Format the result to two decimal places
+      }
+    }
+    return '-';  // Return a fallback value if data is missing or invalid
+  }  
 
   getWeekAverage(weekIndex: number, dataIndex: number): number {
     switch (weekIndex) {

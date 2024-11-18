@@ -24,6 +24,22 @@
             </div>
         </div>
         <div class="derby-sdfa_table_content">
+            <div *ngFor="let data of derbySdfa" style="background-color: aliceblue;">
+                <div>{{ data.id }}</div>
+                <div>{{ data.line ? data.line : '-' }}</div>
+                <div>{{ data.family ? data.family : '-' }}</div>
+                <div>{{ data.sire ? data.sire : '-' }}</div>
+                <div>{{ data.dam ? data.dam : '-' }}</div>
+                <ng-container *ngFor="let weekData of [data.week1, data.week2, data.week3, data.week4, data.week5]; let weekIndex = index">
+                    <div *ngFor="let week of weekData" class="derby-sdfa_table_content_week">
+                        <div>{{ week.rank ? week.rank : '-' }}</div>
+                        <div>{{ week.totalBirds ? week.totalBirds : '-' }}</div>
+                        <div>{{ calculateWeekNo(week.rank, week.totalBirds) }}</div>
+                    </div>
+                </ng-container>
+            </div>
+
+            <!--  -->
             <div *ngFor="let item of data; let i = index">
                 <div>{{ item.id }}</div>
                 <div>{{ item.line ? item.line : '-' }}</div>

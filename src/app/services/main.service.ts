@@ -87,4 +87,8 @@ export class MainService {
   getUsers(): Observable<any> {
     return this.http.get<any>(this.API_URL + 'users');
   }
+
+  getDerbySdfa(): Observable<any> {
+    return this.http.get<any>(`${this.API_URL}seasons`);
+  }
 }
