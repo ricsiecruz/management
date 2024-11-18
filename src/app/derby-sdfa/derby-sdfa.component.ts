@@ -30,22 +30,30 @@ export class DerbySdfaComponent implements OnInit {
       }
     });
     this.mainService.getDerbySdfa().subscribe((res: any) => {
-      console.log('derby sdfa', res)
+      console.log('derby sdfa', res);
       this.data = res;
       this.derbySdfa = res.data;
-
+    
+      // Process the sdfa_points data
       this.derbySdfa = this.derbySdfa.map((data: any) => {
-        if (data.sdfa_points[0]) {
-          Object.keys(data.sdfa_points[0]).forEach(weekKey => {
-            if (typeof data.sdfa_points[0][weekKey] === 'object') {
-              data.sdfa_points[0][weekKey] = Object.entries(data.sdfa_points[0][weekKey]);
+        if (data.sdfa_points && Array.isArray(data.sdfa_points.data)) {
+          // Process the sdfa_points array
+          Object.keys(data.sdfa_points.data).forEach(weekKey => {
+            if (Array.isArray(data.sdfa_points.data[weekKey])) {
+              // Access each week data array
+              data.sdfa_points.data[weekKey] = data.sdfa_points.data[weekKey].map((weekData: any) => {
+                return weekData; // Process week data if necessary
+              });
             }
           });
         }
+        console.log('UPR:', data.sdfa_points.upr);
         return data;
       });
-      
-    })
+
+      console.log('aaa', this.derbySdfa)
+    });
+    
   }
 
   calculateWeekNo(rank: string, totalBirds: string): string {
