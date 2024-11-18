@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="derby-sdfa_table_content">
-            <div *ngFor="let data of derbySdfa" class="test">
+            <div *ngFor="let data of derbySdfa">
                 <div>{{ data.id }}</div>
                 <div>{{ data.line ? data.line : '-' }}</div>
                 <div>{{ data.family ? data.family : '-' }}</div>
@@ -42,52 +42,17 @@
                 <div>-</div>
                 <div>-</div>
                 <div>{{ data.id }}</div>
-                <div *ngFor="let weekData of data.sdfa_points">
-                    <div>{{ weekData.week1 ? weekData.week1.points : '-' }}</div>
-                    <div>{{ weekData.week1 ? weekData.week1.f : '-' }}</div>
-                    <div>{{ weekData.week2 ? weekData.week2.points : '-' }}</div>
-                    <div>{{ weekData.week1 ? weekData.week2.f : '-' }}</div>
-                    <div>{{ weekData.week3 ? weekData.week3.points : '-' }}</div>
-                    <div>{{ weekData.week1 ? weekData.week3.f : '-' }}</div>
-                    <div>{{ weekData.week4 ? weekData.week4.points : '-' }}</div>
-                    <div>{{ weekData.week1 ? weekData.week4.f : '-' }}</div>
-                    <div>{{ weekData.week5 ? weekData.week5.points : '-' }}</div>
-                    <div>{{ weekData.week1 ? weekData.week5.f : '-' }}</div>
-                </div>
-            </div>
-
-            <!--  -->
-            <div *ngFor="let item of data; let i = index">
-                <div>{{ item.id }}</div>
-                <div>{{ item.line ? item.line : '-' }}</div>
-                <div>{{ item.family ? item.family : '-' }}</div>
-                <div>{{ item.sire ? item.sire : '-' }}</div>
-                <div>{{ item.dam ? item.dam : '-' }}</div>
-                <ng-container *ngFor="let weekData of [item.week1, item.week2, item.week3, item.week4, item.week5]; let weekIndex = index">
-                    <div *ngFor="let week of weekData" class="derby-sdfa_table_content_week">
-                        <div>{{ week.rank ? week.rank : '-' }}</div>
-                        <div>{{ week.totalBirds ? week.totalBirds : '-' }}</div>
-                        <div>{{ getWeekAverage(weekIndex, i) }}</div>
-                    </div>
-                </ng-container>
-                <div>{{ upr[i] }}</div>
-                <div>-</div>
-                <div>-</div>
-                <div>-</div>
-                <div>{{ item.id }}</div>
                 <ng-container *ngFor="let weekKey of ['week1', 'week2', 'week3', 'week4', 'week5']; let weekIndex = index">
-                    <div *ngIf="item.sdfaPoints[0][weekKey]" class="derby-sdfa_table_content_sdfa-points">
-                        <div>{{ item.sdfaPoints[0][weekKey].points }}</div>
-                        <div>{{ item.sdfaPoints[0][weekKey].f }}</div>
-                        <div>
-                            {{ calculateSdfaWeekAve(item.sdfaPoints[0][weekKey].points, item.sdfaPoints[0][weekKey].f) }} aaa
+                    <!-- <div *ngIf="data.sdfa_points[0][weekKey]" class="derby-sdfa_table_content_sdfa-points"> -->
+                        <!-- Loop through the array for the current weekKey -->
+                        <div *ngFor="let weekData of data.sdfa_points[0][weekKey]" class="derby-sdfa_table_content_sdfa-points">
+                            <div>{{ weekData.points || '-' }}</div>
+                            <div>{{ weekData.f || '-' }}</div>
+                            <div>{{ weekData.week || '-' }}</div>
                         </div>
-                    </div>
+                    <!-- </div> -->
                 </ng-container>
-                <div>
-                    {{ calculateSdfaUpr(item) }}
-                </div>
-            
+                
             </div>
         </div>
     </div>

@@ -122,7 +122,7 @@
             }
             div:nth-child(27), div:nth-child(30), div:nth-child(33), div:nth-child(36), div:nth-child(39) {
                 // background-color: red;
-                width: 22px;
+                width: 65px;
                 flex: none;
             }
             div:nth-child(28), div:nth-child(31), div:nth-child(34), div:nth-child(37), div:nth-child(40) {
@@ -234,22 +234,17 @@
                 }
                 div:nth-child(2) {
                     // background-color: red;
-                    width: 22px;
+                    // width: 22px;
+                    width: 65px;
                     flex: none !important;
                 }
                 div:nth-child(3) {
-                    background-color: pink;
+                    // background-color: pink;
                     width: 70px;
                     flex: none !important;
                 }
             }
 
         }
-    }
-}
-
-.test {
-    div {
-        background-color: antiquewhite;
     }
 }
