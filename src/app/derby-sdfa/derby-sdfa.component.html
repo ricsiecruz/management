@@ -46,13 +46,14 @@
                     <!-- <div *ngIf="data.sdfa_points[0][weekKey]" class="derby-sdfa_table_content_sdfa-points"> -->
                         <!-- Loop through the array for the current weekKey -->
                         <div *ngFor="let weekData of data.sdfa_points[0][weekKey]" class="derby-sdfa_table_content_sdfa-points">
-                            <div>{{ weekData.points || '-' }}</div>
-                            <div>{{ weekData.f || '-' }}</div>
-                            <div>{{ weekData.week || '-' }}</div>
-                        </div>
+                            <div>{{ weekData[1].points || '-' }}</div>
+                            <div>{{ weekData[1].f || '-' }}</div>
+                            <div>{{ weekData[1].week || '-' }}</div>
+                          </div>
+                          
                     <!-- </div> -->
                 </ng-container>
-                
+                <div>{{ data.upr }}</div>
             </div>
         </div>
     </div>
