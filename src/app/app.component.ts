@@ -32,8 +32,9 @@ export class AppComponent {
     this.router.events.subscribe(() => {
       this.isLoginRoute = this.router.url.includes('login');
     });
-    this.mainService.getData().subscribe((data: any) => {
-      this.menu = data.link;
-    });
+    this.mainService.getMenu().subscribe((res: any) => {
+      console.log('menu', res)
+      this.menu = res;
+    })
   }
 }

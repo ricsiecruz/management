@@ -9,6 +9,7 @@ import { CommonModule } from '@angular/common';
 import { AppSignUpComponent } from './sign-up/sign-up.component';
 import { LoginComponent } from './login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FamilyComponent } from './family/family.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     AppSignUpComponent,
     AppSidebarComponent,
     DatabaseComponent,
+    FamilyComponent,
     DerbySdfaComponent
   ],
   imports: [

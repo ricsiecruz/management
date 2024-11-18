@@ -27,7 +27,7 @@ export class AppSidebarComponent {
     this.mainService.getData().subscribe((data: any) => {
       this.menu = data.menu;
     });
-  }
+  }  
 
   onLogout(): void {
     // this.mainService.setRole(null);

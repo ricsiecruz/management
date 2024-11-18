@@ -26,14 +26,14 @@ export class LoginComponent {
     //   email: ['', [Validators.required, Validators.email]],
     //   password: ['', [Validators.required, Validators.minLength(6)]]
     // });
-    this.loginForm = this.fb.group({
-      email: ['johndoe@example.com', [Validators.required, Validators.email]],
-      password: ['securepassword', [Validators.required, Validators.minLength(6)]]
-    });
     // this.loginForm = this.fb.group({
-    //   email: ['super_admin@mail.com', [Validators.required, Validators.email]],
-    //   password: ['123qwe', [Validators.required, Validators.minLength(6)]]
+    //   email: ['johndoe@example.com', [Validators.required, Validators.email]],
+    //   password: ['securepassword', [Validators.required, Validators.minLength(6)]]
     // });
+    this.loginForm = this.fb.group({
+      email: ['super_admin@mail.com', [Validators.required, Validators.email]],
+      password: ['123qwe', [Validators.required, Validators.minLength(6)]]
+    });
   }
 
   onSubmit(): void {
