@@ -181,32 +181,61 @@
             }
 
             div:nth-child(5) {
-                // background-color: red;
+                background-color: rgb(0, 255, 60);
                 width: 466px;
                 flex: none !important;
             }
 
+            div:nth-child(6) {
+                background-color: rgb(206, 107, 226);
+                width: 66px;
+                flex: none !important;
+            }
+
+            div:nth-child(7) {
+                background-color: rgb(178, 226, 107);
+                width: 50px;
+                flex: none !important;
+            }
+
             &_week {
+                // display: block !important;
                 padding: 0 !important;
+                width: auto !important;
                 div:first-child {
-                    // background-color: #4c4c5c;
-                    width: 80px;
+                    // background-color: #bf70b1;
+                    width: 96px;
                     flex: none !important;
+                    padding: 0 !important;
                 }
                 div:nth-child(2) {
-                    // background-color: red;
-                    width: 86px;
+                    // background-color: rgb(162, 210, 84);
+                    width: 102px;
                     flex: none !important;
+                    padding: 0 !important;
                 }
                 div:nth-child(3) {
-                    // background-color: #4c4c5c;
-                    width: 80px;
+                    background-color: #6196c5;
+                    width: 96px;
                     flex: none !important;
+                    padding: 0 !important;
+                }
+                div:nth-child(4) {
+                    background-color: #9161c5;
+                    width: 96px;
+                    flex: none !important;
+                    padding: 0 !important;
+                }
+                div:nth-child(5) {
+                    background-color: red;
+                    width: 96px;
+                    flex: none !important;
+                    padding: 0 !important;
                 }
             }
 
             div:nth-child(11) {
-                // background-color: red;
+                background-color: rgb(255, 238, 0);
                 width: 66px;
                 flex: none !important;
             }
@@ -218,19 +247,19 @@
             }
 
             div:nth-child(13) {
-                // background-color: red;
+                // background-color: rgb(114, 178, 210);
                 width: 135px;
                 flex: none !important;
             }
 
             div:nth-child(14) {
-                // background-color: #4c4c5c;
+                // background-color: green;
                 width: 150px;
                 flex: none !important;
             }
 
             div:nth-child(15) {
-                // background-color: red;
+                // background-color: pink;
                 width: 145px;
                 flex: none !important;
             }
@@ -258,3 +287,18 @@
         }
     }
 }
+
+.sdfa-coefficient-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .week-details {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .week-details div {
+    margin-right: 20px;
+  }
+  
