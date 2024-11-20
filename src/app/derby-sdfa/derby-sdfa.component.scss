@@ -198,6 +198,24 @@
                 flex: none !important;
             }
 
+            div:nth-child(8) {
+                background-color: red;
+                width: 135px;
+                flex: none !important;
+            }
+
+            div:nth-child(9) {
+                background-color: rgb(178, 226, 107);
+                width: 150px;
+                flex: none !important;
+            }
+
+            div:nth-child(10) {
+                background-color: red;
+                width: 135px;
+                flex: none !important;
+            }
+
             &_week {
                 // display: block !important;
                 padding: 0 !important;

@@ -13,7 +13,7 @@
                 Ave Population
             </div>
             <div class="derby-sdfa_cards_content_data">
-                15.43
+                {{ data[0].avePopulation }}
             </div>
         </div>
         <div class="derby-sdfa_cards_content derby-sdfa_cards_sdfa-points">
@@ -46,7 +46,6 @@
                 <div>{{ item.family }}</div>
                 <div>{{ item.sire }}</div>
                 <div>{{ item.dam }}</div>
-
                 <div *ngFor="let coeff of item.sdfa_coefficient; trackBy: trackById">
                     <div *ngFor="let weekKey of getWeekKeys(coeff.data[0])" class="derby-sdfa_table_content_week">
                       <div>{{ coeff.data[0][weekKey]?.rank }}</div>
@@ -55,11 +54,11 @@
                     </div>
                     <div>{{ coeff.upr }}</div>
                     <div>{{ coeff.sd }}</div>
+                    <div>{{ coeff.sdfaCoefficient }}</div>
+                    <div></div>
+                    <div>{{ item.id }}</div>
                 </div>
-                
-                
-              </div>
-              
+            </div>
         </div>
     </div>
 </div>
