@@ -250,12 +250,34 @@
                     flex: none !important;
                     padding: 0 !important;
                 }
+                &_points {
+                    background-color: #3c4fd9;
+                    padding: 0 !important;
+                    width: auto !important;
+                    div:nth-child(1) {
+                        width: 65px;
+                        background-color: yellow;
+                    }
+                    div:nth-child(2) {
+                        background-color: red;
+                        width: 65px;
+                        flex: none !important;
+                        // padding: 0 !important;
+                    }
+                    div:nth-child(3) {
+                        background-color: green;
+                        width: 70px;
+                        flex: none !important;
+                        // padding: 0 !important;
+                    }
+                }
             }
 
             div:nth-child(11) {
-                background-color: rgb(255, 238, 0);
-                width: 66px;
+                background-color: rgb(225, 160, 168);
+                // width: 66px;
                 flex: none !important;
+                padding: 0 !important;
             }
 
             div:nth-child(12) {
